@@ -137,6 +137,7 @@ button[disabled] {
 }
 
 form {
+  
   display: column;
   align-items: flex-end;
   flex-wrap: wrap;
@@ -145,6 +146,7 @@ form {
 }
 
 input, select {
+
   border-radius: 25px;
   margin: auto;
   padding: auto;

@@ -93,7 +93,6 @@ for (var i =0; i < passwordGenerateObj.pwdLength; i++){
   console.log(passwordText)
 
   passwordText.value = password;
-  
 
 }
 
