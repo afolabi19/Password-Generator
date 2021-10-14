@@ -18,7 +18,6 @@ var writePassword = function(event) {
   pwdNumeric: passwordnumeric,
   pwdSpecialcase: passwordspecial
 
-
   };
 
   console.log(passwordGenerateObj);
@@ -93,13 +92,9 @@ for (var i =0; i < passwordGenerateObj.pwdLength; i++){
   var passwordText = document.querySelector("#password");
   console.log(passwordText)
 
- // var password = genpassword();
-
   passwordText.value = password;
   
 
 }
-
-
 
 generateBtn.addEventListener("click", writePassword);
